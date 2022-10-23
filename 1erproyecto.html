@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+ // objeto 1
+var obj = {a: 1, b: 2, c: 3}
+            function key_Value_Array (obj) {
+                var keys = [];
+                var values = [];
+                for (var k in obj ) {
+                    keys.push(k);
+                    values.push(obj[k]);
+  }
+            return [keys,values]
+}
+            key_Value_Array(obj);
+        console.log(key_Value_Array(obj));
+ 
+// objeto 2
+var obj2 = {a: "Apple", b: "Microsoft", c: "Google"}
+            function key_Value_Array (obj2) {
+                var keys = [];
+                var values = [];
+                 for (var k in obj2 ) {
+                     keys.push(k);
+                     values.push(obj2[k]);
+  }
+            return [keys,values]
+}
+            key_Value_Array(obj2);
+        console.log(key_Value_Array(obj2));
+
+ // objeto 3
+var obj3 = {Key1: true, Key2: false, Key3: undefined}
+function key_Value_Array (obj3) {
+    var keys = [];
+    var values = [];
+
+              for (var k in obj3 ) {
+                   keys.push(k);
+                   values.push(obj3[k]);
+}
+            return [keys,values]
+}
+            key_Value_Array(obj3);
+        console.log(key_Value_Array(obj3));
+        </script>
+    </body>
+</html> 

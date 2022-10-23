@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Byron Perez" content="3erproyecto">
+        <title>Background Camaleon</title>
+        <style>
+           *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;   } 
+            body{ 
+            
+                justify-content: center;
+                height: 100vh;
+                display:flex;
+
+            } 
+            
+            #container {
+                height: 100vh;
+                display:flex;
+                align-items:center;
+                justify-content: center;
+            }
+            #btn-color{
+                background-color: #d60440;
+                color:antiquewhite;
+                margin-top: 5px;
+                padding: 20px;
+                border:2px groove black;
+                outline: none;
+                border-radius: 2px;
+                font-weight: bold;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                
+               
+            }
+            h1{
+                background-color: #d60440;
+                color:rgb(248, 245, 241);
+                margin-top: 10px;
+                padding: 2px;
+                border:2px groove black;
+                border-radius: 2px;
+                outline: none;
+                font-size: 30px;
+                font-family:Georgia, 'Times New Roman', Times, serif;         
+            }   
+            span
+            {
+                background-color: #d60440;
+                color:antiquewhite;
+                margin-top: 1px;
+                padding: 2px;
+                border:2px groove black;
+                border-radius: 2px;
+                outline: none;
+                font-size: 20px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                }
+        </style>
+    </head>
+    <body id="container" class="changeBG">
+        <div>
+        <h1> Background color</h1>
+        <h2><span id= "colores-din" class="colores-din">white</span></h2>
+        <button type="button" id="btn-color" onclick="btnChanger()">Cambiar de Color</button>
+        </div>
+      
+    <script src="3erproyecto.js"></script>
+    </body>
+</html>
